@@ -22,6 +22,7 @@ body {
 
 .products caption {
     margin-bottom: 12px;
+    font-size: 20px;
     caption-side: top;
 }
 
