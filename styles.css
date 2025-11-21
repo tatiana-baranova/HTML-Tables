@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #2a2a2a;
+    background-color: azure;
+}
+
+.products {
+    background-color: rgb(130, 155, 245);
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.products th,
+.products td {
+    padding: 8px 10px;
+    border: 1px solid #2d3036;
+}
+
+.products caption {
+    margin-bottom: 12px;
+    caption-side: top;
+}
+
+.products thead,
+.products tfoot {
+    background-color: #98b9f2;
+}
+
+.products td:hover {
+    background-color: #364fb5;
+}
+
+.products tbody tr:nth-child(odd) {
+    background-color: #b5ccf5;
+}
