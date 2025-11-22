@@ -11,7 +11,7 @@ body {
 .products {
     background-color: rgb(130, 155, 245);
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     margin-bottom: 40px;
 }
 
@@ -19,6 +19,7 @@ body {
 .products td {
     padding: 8px 10px;
     border: 1px solid #2d3036;
+    text-align: center;
 }
 
 .products caption {
@@ -42,14 +43,15 @@ body {
 
 .schedule {
     border-collapse: collapse;
-    width: 50%;
+    width: 80%;
     background-color: #91dceb;
 }
 
 .schedule th,
 .schedule td {
-    padding: 8px 10px;
+    padding: 2px 4px;
     border: 1px solid #2d3036;
+    text-align: center;
 }
 
 .schedule caption {
@@ -58,6 +60,14 @@ body {
     caption-side: top;
 }
 
-/* .schedule td:hover {
+.schedule td:hover {
     background-color: #225f6b;
-} */
+}
+
+.schedule thead {
+    background-color: #46a7c2;
+}
+
+.schedule tbody {
+    background-color: #4dc5dd;
+}
