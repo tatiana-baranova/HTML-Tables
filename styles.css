@@ -12,6 +12,7 @@ body {
     background-color: rgb(130, 155, 245);
     border-collapse: collapse;
     width: 50%;
+    margin-bottom: 40px;
 }
 
 .products th,
@@ -38,3 +39,25 @@ body {
 .products tbody tr:nth-child(odd) {
     background-color: #b5ccf5;
 }
+
+.schedule {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #91dceb;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px 10px;
+    border: 1px solid #2d3036;
+}
+
+.schedule caption {
+    margin-bottom: 12px;
+    font-size: 20px;
+    caption-side: top;
+}
+
+/* .schedule td:hover {
+    background-color: #225f6b;
+} */
