@@ -11,7 +11,7 @@ body {
 .products {
     background-color: rgb(130, 155, 245);
     border-collapse: collapse;
-    width: 70%;
+    width: 50%;
     margin-bottom: 40px;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .schedule {
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
     background-color: #91dceb;
 }
 
