@@ -43,13 +43,13 @@ body {
 
 .schedule {
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     background-color: #91dceb;
 }
 
 .schedule th,
 .schedule td {
-    padding: 2px 4px;
+    padding: 8px 10px;
     border: 1px solid #2d3036;
     text-align: center;
 }
@@ -63,6 +63,7 @@ body {
 .schedule td:hover {
     background-color: #225f6b;
 }
+
 
 .schedule thead {
     background-color: #46a7c2;
